@@ -4,6 +4,7 @@ h1 {
     padding: 10px;
     color: blueviolet;
     text-align: center;
+    border-radius: 5px;
   }
 
   .headerContainer{
@@ -12,9 +13,10 @@ h1 {
   .centeredImg {
     display: block;
     margin: 0 auto;
+    border-radius: 50px;
     }
 
 .wBorderandShadow {
   border: 6px solid blueviolet;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0.2, 0.8); 
 }

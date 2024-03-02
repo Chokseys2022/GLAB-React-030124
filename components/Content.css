@@ -4,4 +4,6 @@ p {
   padding: 2px;
   margin-bottom: 5px;
   text-align: center;
+  border-radius: 12px;
 }
+
