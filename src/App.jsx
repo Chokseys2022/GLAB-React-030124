@@ -24,24 +24,32 @@
 
 // export default App;
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Content from "../components/Content";
 import Footer from "../components/Footer";
 
-
-function App () {
+function App() {
   return (
-    <div className="container">
-    <Header />
-    <Content/>
-    <Content/>
-    <Content/>
-    <Content/>
-    <Content/>
-    <Footer />
-    </div>
+    <>
+      <Header />
+      <Content color="blue" text="Some random stuff!" />
+      <Content color="red" text="Some random stuff!" />
+      <Content color="green" text="Some random stuff!" />
+      <Footer />
+    </>
   );
+}
+
+function useTime() {
+  const [time, setTime] = useState(() => new Date());
+  useEffect(() => {
+    const id = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(id);
+  }, []);
+  return time;
 }
 
 export default App;
