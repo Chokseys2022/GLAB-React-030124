@@ -35,15 +35,16 @@ function App() {
   return (
     <>
       <Header />
-      <Content color="navy" text="You are never too old to set another goal or dream a new dream.
+      <Content color="blueviolet
+      " text="You are never too old to set another goal or dream a new dream.
 
  - Les Brown" />
-      <Content color="navy" text="If you want light to come into your life, you need to stand where it is shining.
+      <Content color="purple" text="If you want light to come into your life, you need to stand where it is shining.
 
  - Guy Finley
 
 Writer" />
-      <Content color="navy" text="You’re braver than you believe, and stronger than you seem, and smarter than you think.
+      <Content color="blueviolet" text="You’re braver than you believe, and stronger than you seem, and smarter than you think.
 
  - A.A. Mine" />
       <Footer />
