@@ -1,10 +1,14 @@
 import React from "react";
 import './Header.css';
+import imageSrc from './download.jpg';
 
 
 function Header () {
     return (
-        <h1>Inspirational quotes of the day</h1>
+        <div class ="headerContainer">
+        <h1> Qutoes for the day </h1>
+        <img src={imageSrc} alt="Description of the image" className="centeredImg wBorderandShadow" />
+        </div>
     )
 }
 

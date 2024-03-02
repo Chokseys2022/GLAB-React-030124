@@ -3,8 +3,8 @@ import './Footer.css';
 
 
 function Footer () {
-    return (
-        <h2> Place holder - header 2 </h2>
+    return (    
+        <h2> Have a fabulous day! </h2>          
     );
 }
 
