@@ -29,13 +29,23 @@ import Header from "../components/Header";
 import Content from "../components/Content";
 import Footer from "../components/Footer";
 
+
+
 function App() {
   return (
     <>
       <Header />
-      <Content color="blue" text="Some random stuff!" />
-      <Content color="red" text="Some random stuff!" />
-      <Content color="green" text="Some random stuff!" />
+      <Content color="navy" text="You are never too old to set another goal or dream a new dream.
+
+ - Les Brown" />
+      <Content color="navy" text="If you want light to come into your life, you need to stand where it is shining.
+
+ - Guy Finley
+
+Writer" />
+      <Content color="navy" text="You’re braver than you believe, and stronger than you seem, and smarter than you think.
+
+ - A.A. Mine" />
       <Footer />
     </>
   );
