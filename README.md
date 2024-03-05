@@ -1,8 +1,22 @@
-# React + Vite
+# Daily Quotes App
+Quotes for the day!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+This is a simple React application that displays daily quotes  along with authors.
 
-Currently, two official plugins are available:
+## Components
+### Header
+Displays the title "Quotes for the day" along with an image.
+### Content
+Displays a quote along with the author's name. 
+### Footer
+Displays a message.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies and Tools
+JavaScript
+CSS
+React
+Vite
+
+
+
